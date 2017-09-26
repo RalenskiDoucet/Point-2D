@@ -8,6 +8,5 @@ int main()
 	Point2d D = *A - *B;
 	Point2d E = *A * *B;
 
-
 	system("pause");
 }

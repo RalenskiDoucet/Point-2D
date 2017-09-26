@@ -9,7 +9,7 @@ Point2d::Point2d()
 Point2d::Point2d(float X, float Y)
 {
 	mX=X;
-	mY=Y;
+	mY =Y;
 }
 
 Point2d Point2d::operator+(const Point2d & other)
