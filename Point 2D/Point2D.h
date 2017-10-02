@@ -17,3 +17,4 @@ public:
 	bool operator==(const Point2d &other);
 
 };
+ 

@@ -26,5 +26,5 @@ void Player::Move(char Direction,int Up,int Down,int Left,int Right)
 
 void Player::SetPosition(Point2d * pos)
 {
-	Point2d mX, mY = *pos;
+	Point2d mX, mY = *pos; 
 }

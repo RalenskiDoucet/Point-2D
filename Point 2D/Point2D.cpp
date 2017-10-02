@@ -30,7 +30,7 @@ Point2d Point2d::operator*(const Point2d & other)
 	return Point2d(mX * other.mX,mY * other.mY);
 }
 
-Point2d Point2d::operator*(float & other)
+Point2d Point2d::operator*(float& other)
 {
 	return Point2d(mX * other, mY * other);
 	

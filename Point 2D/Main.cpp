@@ -15,10 +15,9 @@ int main()
 
 	Point2d *G = new Point2d(2, 5);
 	Point2d *H = new Point2d(8, 16);
-	Point2d I = *G - *H;
+	Point2d I = *G - *H; 
 	
 	Point2d *J = new Point2d(1, 2);
 	Point2d *K = new Point2d(3, 4);
-	Point2d L = 
 	system("pause");
 }
